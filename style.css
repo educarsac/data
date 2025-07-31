@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  text-align: center;
+  padding: 10px;
+  background: #003366;
+  color: white;
+}
+header img {
+  width: 100px;
+  height: auto;
+}
+main {
+  padding: 20px;
+}
+form {
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+input, button {
+  padding: 10px;
+  flex: 1 1 200px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+@media (max-width: 600px) {
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+  th {
+    background: #003366;
+    color: white;
+  }
+  td {
+    margin-bottom: 10px;
+  }
+}
